@@ -1,17 +1,85 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    font-family: Roboto;
-    color: #bfbfbf;
-    background: #343a40;
-    padding: 20px;
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-img {
-    width: 20%;
-    height: auto;
+body {
+    color: #bfbfbf;
+    background: white;
 }
 
 a {
     color: #bfbfbf;
+}
+
+.navbar{
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: #343433;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo{
+    margin: 0.5rem;
+    width: 12rem;
+    font-weight: 300;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-menu a{
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #bfbfbf;
+}
+
+.navbar-menu a:hover {
+    color: #71C9B8;
+}
+
+.main{
+    padding: 0rem;
+    margin: 0rem;
+    height: 30rem;
+    background-color: lightskyblue;
+    position: relative;
+}
+
+.main-pic{
+    height: 100%;
+    position: relative;
+    left: -120px;
+}
+
+.main-desc{
+    background-color: #3f3f3f;
+    height: 100%;
+    width: 100%;
+    transform: skew(-10deg);
+    position: absolute;
+    top: 0px;
+    left: 40%;
+}
+
+.main-desc-text{
+    transform: skew(10deg);
+    font-size: 2rem;
+    padding: 5rem 0rem 0rem 6rem;
+    color: white;
+    font-weight: 200;
+}
+
+.main-desc-name{
+    font-size: 4rem;
+    font-weight: 500;
+    text-transform: uppercase;
 }
