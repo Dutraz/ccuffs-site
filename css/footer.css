@@ -1,0 +1,26 @@
+footer{
+    padding: 30px;
+    background-color: #212121;
+    color: #bfbfbf;
+}
+
+footer img{
+    height: 25px;
+}
+
+footer p{
+    line-height: 25px;
+    display: inline;
+}
+
+.creditos{
+    font-size: 0.75rem;
+    color: #646464;
+    text-align: center;
+    padding: 10px;
+}
+
+.creditos a{
+    text-decoration: none;
+    color: #bfbfbf;
+}
