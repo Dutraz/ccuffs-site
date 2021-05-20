@@ -5,7 +5,11 @@
 @import "main.css";
 @import "sobre.css";
 @import "contato.css";
-@import "footer.css"; */
+@import "footer.css";
+
+html {
+    scroll-behavior: smooth;
+}
 
 *{
     padding: 0;

@@ -20,7 +20,7 @@
     transform: skew(-10deg);
     position: absolute;
     top: 0px;
-    right: -600px
+    left: 600px
 }
 
 .main-desc-text{
