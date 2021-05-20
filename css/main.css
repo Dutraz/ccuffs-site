@@ -10,17 +10,16 @@
 .main-pic{
     height: 100%;
     position: relative;
-    left: -120px;
 }
 
 .main-desc{
     background-color: #5d5d5d;
     height: 100%;
-    width: 100%;
+    width: 1500px;
     transform: skew(-10deg);
     position: absolute;
     top: 0px;
-    left: 500px;
+    right: -600px
 }
 
 .main-desc-text{
@@ -65,6 +64,38 @@
     margin-left: 10px;
 }
 
-@media (max-width: 1200px){
-
+@media screen and (max-width: 1200px){
+    #main{
+        height: auto;
+    }
+    .main-pic{
+        width: 100%;
+    }
+    .main-desc{
+        position: initial;
+        width: 100%;
+        transform: skew(0deg);
+        margin: 0px;
+        padding: 0px;
+    }
+    .main-desc-text{
+        transform: skew(0deg);
+        margin: 0px;
+        padding: 20px;
+    }
+    .main-desc-name{
+        font-size: 200%;
+    }
+    .main-attr-list{
+        margin: 0px;
+        padding: 0px;
+    }
+    .main-attr-list p{
+        font-size: 0.6rem;
+        margin: auto 5px auto 5px;
+    }
+    .main-attr-list img{
+        height: 30%;
+        margin-left: 0px;
+    }
 }
