@@ -15,22 +15,21 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
         <a class="navbar-brand" href="#">
             <img class="navbar-logo" src="img/logos/cc-logo-bg-transparent.svg">
         </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item"> <a class="nav-link" href="#">Sobre Mim</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Formação</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Projetos</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#">Contato</a> </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarText"> <a class="nav-link"
+                        href="#sobre">Sobre Mim</a> </li>
+                <li class="nav-item" data-toggle="collapse" data-target="#navbarText"> <a class="nav-link"
+                        href="#contato">Contato</a> </li>
             </ul>
         </div>
     </nav>
@@ -59,8 +58,8 @@
         </div>
     </section>
 
-    <section class="conteudo p-5">
-        <h2 class="m-5">Sobre Mim</h2>
+    <section class="conteudo p-3" id="sobre">
+        <h2 class="my-5 mx-3">Sobre Mim</h2>
         <div class="container">
             <div class="row">
                 <div class="col-sm mx-2">
@@ -142,7 +141,7 @@
                     </div>
 
 
-                    <hr class="mt-2 mb-5">
+                    <hr class="mt-2 mb-5 espacador">
                 </div>
                 <div class="col-sm mx-2">
                     <h3>Formação Acadêmica</h3>
@@ -161,14 +160,13 @@
                     <p class="pb-3">Criado por Leonardo Moura Leitao, Cod3r Cursos Online</p>
                     <h5 class="pt-1">Python 3 - Curso Completo do Básico ao Avançado</h5>
                     <p class="pb-3">Criado por Leonardo Moura Leitao, Cod3r Cursos Online</p>
-                    <hr class="mt-2 mb-5">
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contatos p-5">
-        <h2 class="m-5">Contato</h2>
+    <section class="contatos p-3 py-5" id="contato">
+        <h2 class="my-5 mx-3">Contato</h2>
         <div class="container">
             <div class="row">
 
@@ -186,11 +184,12 @@
 
                     <div class="contato py-2">
                         <img src="img/icons/contact/linkedin.png">
-                        <a class="p-1" target="_blank" href="https://www.linkedin.com/in/pedro-zawadzki-dutra-7237351b1/">Pedro Zawadzki Dutra</a>
+                        <a class="p-1" target="_blank"
+                            href="https://www.linkedin.com/in/pedro-zawadzki-dutra-7237351b1/">Pedro Zawadzki Dutra</a>
                     </div>
+                    <hr class="mt-2 mb-5 espacador">
                 </div>
 
-                <hr class="mt-2 mb-5">
 
                 <div class="col-sm mx-2">
                     <h3>Social</h3>
@@ -208,27 +207,26 @@
                         <img src="img/icons/social/facebook.png">
                         <a class="p-1" target="_blank" href="https://www.facebook.com/PedroZDutra">PedroZDutra</a>
                     </div>
+
+                    <div class="contato py-2">
+                        <img src="img/icons/social/spotify.png">
+                        <a class="p-1" target="_blank"
+                            href="https://open.spotify.com/user/22x3s3jrsatoriej3sa2u4qya">Pedro Dutra</a>
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <!-- <footer>
-        <article>
-            <h2>Contato</h2>
-            <img src="img/icons/email.png" alt="">
-            <p>pedro.dutra@estudante.uffs.edu.br</p>
-        </article>
-        <article>
-            <h2>Contato</h2>
-            <p>pedro.dutra@estudante.uffs.edu.br</p>
-        </article>
-        <div class="creditos">Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect"
-                title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/"
-                title="Flaticon">www.flaticon.com</a>
+    <footer class="p-5 text-center">
+        <div class="creditos">Icons made by
+            <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a>,
+            <a href="https://www.freepik.com" title="Freepik">Freepik</a> and
+            <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
-    </footer> -->
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

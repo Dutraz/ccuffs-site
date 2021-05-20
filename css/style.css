@@ -3,6 +3,9 @@
 
 @import "navbar.css";
 @import "main.css";
+@import "sobre.css";
+@import "contato.css";
+@import "footer.css"; */
 
 *{
     padding: 0;
@@ -10,59 +13,12 @@
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-.conteudo{
-    background-color: #343434;
-    color: white;
+.espacador{
+    display: none;
 }
 
-.conteudo hr{
-    border-color: #4d4d4d;
+@media (max-width: 600px){
+    .espacador{
+        display: block;
+    }
 }
-
-.contatos hr{
-    border-color: white;
-}
-
-.turma{
-    background-color: orange;
-    border-radius: 5px;
-    font-size: 10px;
-    font-weight: bold;
-    color: #252525;
-}
-
-.card{
-    width: 75px;
-}
-
-.card p{
-    /* background-color: red; */
-    font-size: 13px;
-}
-
-.contatos{
-    background-color: #5d5d5d;
-    color: white;
-}
-
-.contato img{
-    height: 20px;
-}
-
-.contato a{
-    text-decoration: none;
-    color: white;
-}
-
-.contato a:hover{
-    text-decoration: none;
-    color: white;
-}
-
-
-
-/* 
-@import "footer.css";
-@import "conteudo.css";
-*/
-
